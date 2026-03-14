@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import { BarChart3, Shield, Brain, TrendingUp, AlertTriangle, MessageCircle, Book } from 'lucide-react';
+import Navbar from './components/navbar/Navbar';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0e1a] text-white">
       {/* Navbar */}
-      <nav className="border-b border-gray-800">
+      {/* <nav className="border-b border-gray-800">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2">
@@ -33,7 +34,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </nav>
+      </nav> */}
+
+    
 
       {/* Hero Section */}
       <section className="container mx-auto px-6 py-20 text-center">
